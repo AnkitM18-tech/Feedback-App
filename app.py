@@ -11,7 +11,7 @@ if ENV == 'dev':
     app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:LiNaKRb@localhost/LOGO'
 else:
     app.debug = False
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://mblaabqvelrhkr:867518fea7c307615f6d9fd79f10fddd056cea7fb66c08766db94eaa29d88ca4@ec2-54-156-151-232.compute-1.amazonaws.com:5432/dddp4043rischo'
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://mblaabqvelrhkr:867518fea7c307615f6d9fd79f10fddd056cea7fb66c08766db94eaa29d88ca4@ec2-54-156-151-232.compute-1.amazonaws.com:5432/dddp4043rischo'
 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
